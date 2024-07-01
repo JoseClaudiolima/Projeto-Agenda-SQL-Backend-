@@ -46,6 +46,8 @@
 
 4. Abra o projeto em seu navegador web.
 
+## Observação
+Os dados de "Telefone" contidos tanto no print, quanto no database são ficticios e não representam dados de pessoas reais, foram escolhidos aleatoriamente.
 
 ## Licença
 
