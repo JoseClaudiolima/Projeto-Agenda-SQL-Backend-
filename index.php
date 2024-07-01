@@ -17,6 +17,7 @@ include_once("config/process.php");
     <tbody>
         <?php foreach($contacts as $contact):
          ?>
+         <tr>
         <td class="identification">  <?=$contact['id']?>  </td>
         <td>  <?=$contact['name']?>  </td>
         <td>  <?=$contact['phone']?>  </td>
@@ -26,7 +27,7 @@ include_once("config/process.php");
                 visibility
                 </span>
             </a>
-            <a href="#">
+            <a href="<?=$base_url?>edit.php?id=<?=$contact['id']?>">
                 <span class="material-symbols-outlined" id="pencil">
                 edit_note
                 </span>
@@ -35,6 +36,7 @@ include_once("config/process.php");
             close
             </span>
         </td>
+        </tr>
         <?php endforeach?>
 
 

@@ -24,7 +24,7 @@ include_once("config/url.php");
         <a href="<?=$base_url?>index.php"  class="content-nav">
             <p>Agenda</p>
         </a>
-        <a href="#" class="content-nav">
+        <a href="<?=$base_url?>create.php" class="content-nav">
             <p>Adicionar Contato</p>
         </a>
     </nav>
